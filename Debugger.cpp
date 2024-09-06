@@ -31,7 +31,7 @@ std::string RetrieveTime() {
 
 void InitLog(const std::wstring& Path) {
 	std::ofstream Log(Path);
-	Log << "[" + RetrieveTime() + "] " << "[INITIALIZED] - UE4 Librarian has been successfully attached.\n";
+	Log << "[" + RetrieveTime() + "] " << "[INITIALIZED] - <Debug Log Template> has been successfully attached.\n";
 	Log.close();
 }
 
