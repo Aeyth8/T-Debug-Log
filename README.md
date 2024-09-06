@@ -1,6 +1,7 @@
 # How To Use
 
 Simply add both files to your project, and whenever you want to call the functions just add ``#include <Debugger.h>`` to the top.
+
 *(Your paths will vary)*
 
 This is designed for DLLs, and as of right now I have only made DLLs in C++, I literally have not made anything else. 
