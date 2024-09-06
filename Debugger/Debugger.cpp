@@ -1,12 +1,8 @@
-#include <Debugger.h>
-#include <iostream>
-#include <algorithm>
-#include <fstream>
-#include <string>
-#include <chrono>
+#include "./Debugger.h"
 
-bool Initialized = false;
-std::string Timestamped;
+
+
+
 
 std::string RetrieveTime() {
 	auto now = std::chrono::system_clock::now();
